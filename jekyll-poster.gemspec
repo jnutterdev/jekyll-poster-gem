@@ -7,6 +7,7 @@ Gem::Specification.new do |s|
     s.author      = 'John Nutter'
     s.email       = 'hello@jnutterdev.com'
     s.files       = ['lib/jekyll-poster.rb']
+    s.add_development_dependency = 'rspec', '~> 3.7'
     s.homepage    = 'https://rubygems.org/gems/jekyll-poster'
     s.license     = 'MIT'
 end
